@@ -1,0 +1,136 @@
+@font-face {
+   font-family: Lato-Regular;
+   src: url(Lato-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: #2a2828;
+    width: 100%;
+    padding: 0;
+    font-family: Lato-Regular;
+}
+
+table {
+    border-collapse: collapse;
+    min-height: 543px;
+    border-spacing: 0;
+    width: 100%;
+}
+
+td {
+    border: 0;
+    transition: background-color 0.5s;
+    background-color: #454141;
+    color: white;
+}
+
+td:hover {
+    background-color: #555050FF;
+	transition: background-color 0.5s;
+}
+
+th {
+    color: white;
+    border: 0;
+    transition: background-color 0.5s;
+    background-color: #262424;
+}
+
+table > tbody > tr > th {
+    height: 40px;
+}
+th:hover {
+    background-color: #555050FF;
+	transition: background-color 0.5s;
+}
+
+.listtitle {
+    margin: 0;
+    background-color: #262424;
+    color: white;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    line-height: 48px;
+}
+
+.prelista {
+    color: white;
+    background-color: #454141;
+    width: 15%;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: inline-block;
+    float: left;
+
+}
+
+#lista {
+    color: white;
+    background-color: #454141;
+    height: 500px;
+    overflow:auto;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    transition: background-color 200ms;
+    text-align: center;
+}
+
+li:hover {
+    transition: background-color 50ms;
+    background-color: #555050;
+}
+
+#plan {
+    display: flex;
+}
+
+body {
+    background-color: red;
+    overflow: hidden;
+}
+.listtitle {
+    margin: 0;
+    background-color: #262424;
+    color: white;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    line-height: 48px;
+}
+#lista {
+    display: none;
+    position: relative;
+    padding: 10px 6px 2px 10px ;
+
+}
+.dropdown:hover #lista {
+    display: block;
+    color:white;
+    background-color: #454141;
+}
+
+.prelista {
+    width: 100%;
+    margin: 0px;
+}
+#plan {
+    margin: 0px;
+    display: block;
+    padding: 0px;
+}
+
+li {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+}

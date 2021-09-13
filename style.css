@@ -90,6 +90,7 @@ li:hover {
 
 #plan {
     padding-right: 1%;
+    display: flex;
 }
 /* width */
 ::-webkit-scrollbar {

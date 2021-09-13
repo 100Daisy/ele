@@ -1,0 +1,112 @@
+@font-face {
+   font-family: Lato-Regular;
+   src: url(Lato-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: #2a2828;
+    width: 100%;
+    padding: 0;
+    font-family: Lato-Regular;
+}
+
+table {
+    border-collapse: collapse;
+    min-height: 543px;
+    border-spacing: 0;
+}
+
+td {
+    border: 0;
+    transition: background-color 0.5s;
+    background-color: #454141;
+    color: white;
+}
+
+td:hover {
+    background-color: #555050FF;
+	transition: background-color 0.5s;
+}
+
+th {
+    color: white;
+    border: 0;
+    transition: background-color 0.5s;
+    background-color: #262424;
+}
+
+table > tbody > tr > th {
+    height: 40px;
+}
+th:hover {
+    background-color: #555050FF;
+	transition: background-color 0.5s;
+}
+
+.listtitle {
+    margin: 0;
+    background-color: #262424;
+    color: white;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    line-height: 48px;
+}
+
+.prelista {
+    color: white;
+    background-color: #454141;
+    width: 15%;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: inline-block;
+    float: left;
+
+}
+
+#lista {
+    color: white;
+    background-color: #454141;
+    height: 500px;
+    overflow:auto;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    transition: background-color 200ms;
+    text-align: center;
+}
+
+li:hover {
+    transition: background-color 50ms;
+    background-color: #555050;
+}
+
+#plan {
+    padding-right: 1%;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #383636;
+  border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}

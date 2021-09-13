@@ -1,0 +1,6 @@
+pandas
+bs4
+ftfy
+lxml
+flask
+flask_cors

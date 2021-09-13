@@ -60,17 +60,17 @@ th:hover {
     width: 15%;
     margin-left: 1%;
     margin-right: 1%;
-    display: inline-block;
+    display: inline;
     float: left;
-
 }
 
 #lista {
     color: white;
     background-color: #454141;
     height: 500px;
-    overflow:auto;
+    overflow: auto;
     margin: 0;
+    overflow-x: hidden;
 }
 
 ul {
@@ -90,6 +90,7 @@ li:hover {
 
 #plan {
     padding-right: 1%;
+    display: flex;
 }
 /* width */
 ::-webkit-scrollbar {
@@ -109,4 +110,47 @@ li:hover {
 a {
     text-decoration: none;
     color: white;
+}
+
+@media (max-width: 62em){
+    body {
+        background-color: red;
+        overflow: hidden;
+    }
+    .listtitle {
+        margin: 0;
+        background-color: #262424;
+        color: white;
+        font-size: 16px;
+        border: none;
+        text-align: center;
+        line-height: 48px;
+    }
+    #lista {
+        display: none;
+        position: relative;
+        padding: 10px 6px 2px 10px ;
+
+    }
+    .dropdown:hover #lista {
+        display: block;
+        color:white;
+        background-color: #454141;
+    }
+
+    .prelista {
+        width: 100%;
+        margin: 0px;
+    }
+    #plan {
+        margin: 0px;
+        display: block;
+        padding: 0px;
+    }
+
+    li {
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
